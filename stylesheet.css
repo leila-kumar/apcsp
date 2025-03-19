@@ -1,0 +1,42 @@
+            .heading {
+                padding: 60px;
+                font-size: 25px;
+                text-align: center;
+                background: #b9e6e5;
+            }
+           
+ 
+            .section {
+               background-color: #E9E2FA;
+               padding: 20px;
+               margin-top: 30px;
+            }
+
+             .section2 {
+               background-color: #bddfff;
+               padding: 20px;
+               margin-top: 30px;
+            }
+
+            .book {
+            background-color: #b4c4eb ;
+            padding: 20px;
+            margin-top: 30px;
+            }
+
+            .section2:hover, .section:hover, .book:hover {
+              background-color: #fffec8;  /*chatgpt taught me how
+               to make these sections change color 
+               (to a light yellow) when my mouse hovers over them */
+              transition: background-color 0.3s ease;
+          }
+
+          .section, .section2, .book {
+             border-radius: 10px; /* chat gpt taught me how
+              to make the corners of my divisions rounded*/
+              }
+
+              .section, .section2, .book {
+                border: 6px double #ffaed7;  /* chat gpt taught me how to make 
+                a double lined light pink border for my divisions*/
+            }
